@@ -5,6 +5,7 @@
 - Get it to self-host
 
 **Goals:**
+
 *Learn about...*
 - PL implementation
 - C

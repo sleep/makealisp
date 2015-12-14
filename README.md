@@ -1,7 +1,7 @@
-# [Make-a-Lisp](https://github.com/kanaka/mal) implementation
+# A [make-a-lisp](https://github.com/kanaka/mal) implementation
 
 **Objective:**
-- Write a Lisp interpreter from scratch with systems programming languages
+- Write a Lisp interpreter from scratch with a hybrid of systems programming languages.
 - Get it to self-host
 
 **Goals:**
@@ -16,7 +16,7 @@
 - Must use only C standard library. *(and GNU readline (and libpcre..))*
 
 **Resources:**
-- Kanaka's [Make-a-Lisp](https://github.com/sleep/mal/blob/master/process/guide.md)
+- Kanaka's [make-a-lisp](https://github.com/sleep/mal/blob/master/process/guide.md)
 <br/>
 
 
@@ -57,5 +57,3 @@ I've decided to deal with dynamic strings closer to the metal with `char**`'s, i
 ### Step 2: Eval
 
 Should I move to Rust? Can I use my C bit and do the rest in Rust, via FFI?
-
-

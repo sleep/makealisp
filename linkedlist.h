@@ -16,8 +16,7 @@ void ll_check(LList* list);
 void ll_free(LList* list); //doesn't touch element memory
 void ll_free_recur(LList* list); //frees each element's memory, as well.
 
-//Must check ret != NULL
-void ll_asprint(LList* list, char** ret);
+void ll_asprint(LList* list, char** ret); //Must check ret != NULL
 void ll_print(LList* list);
 
 LNode* ll_get(LList* list, int index);
@@ -28,6 +27,3 @@ LNode* ll_shift(LList* list);
 void ll_unshift(LList* list, LNode* node);
 
 #endif
-
-// TODO: move to doubly linked list
-// TODO: add insert

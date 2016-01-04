@@ -8,12 +8,6 @@
 #include <string.h>
 
 
-
-
-
-
-
-
 LList* ll_create(){
   LList* list = malloc(sizeof(LList));
   assert(list != NULL);

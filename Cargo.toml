@@ -1,0 +1,8 @@
+[package]
+name = "makealisp"
+version = "0.1.0"
+authors = ["Sean Lee <freshdried@gmail.com>"]
+
+[dependencies]
+rl-sys = "~0.4"
+regex = "~0.1"
